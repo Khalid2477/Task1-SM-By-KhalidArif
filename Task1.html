@@ -1,0 +1,53 @@
+<?php
+require 'task1.php';
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+</body>
+
+<form action="task1.php" method="POST">
+
+<label for "myrange">motor1</label>
+<input type="range" min="0" max="180" value="50" class="slider" id="m1" name="m1" oninput="this.nextElementSibling.value = this.value">
+<output>50</output>
+<br>
+
+<label for "myrange">motor2</label>
+<input type="range" min="0" max="180" value="50" class="slider" id="m2" name="m2" oninput="this.nextElementSibling.value = this.value">
+<output>50</output>
+<br>
+
+<label for "myrange">motor3</label>
+<input type="range" min="0" max="180" value="50" class="slider" id="m3" name="m3" oninput="this.nextElementSibling.value = this.value">
+<output>50</output>
+<br>
+
+<label for "myrange">motor4</label>
+<input type="range" min="0" max="180" value="50" class="slider" id="m4" name="m4" oninput="this.nextElementSibling.value = this.value">
+<output>50</output>
+<br>
+
+<label for "myrange">motor5</label>
+<input type="range" min="0" max="180" value="50" class="slider" id="m5" name="m5"oninput="this.nextElementSibling.value = this.value">
+<output>50</output>
+<br>
+
+<label for "myrange">motor6</label>
+<input type="range" min="0" max="180" value="50" class="slider" id="m6" name="m6"oninput="this.nextElementSibling.value = this.value">
+<output>50</output>
+<br>
+
+<input type="submit" name="on" value="ON">
+<br>
+
+<button type="submit" name="submit">save</button>
+
+</form>
+</html>
